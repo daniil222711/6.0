@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Кликер Темщика</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu-toggle">≡</div>
+  <div id="extra-menu" class="hidden">
+    <h3>Магазин</h3>
+    <button onclick="buyStoreItem('x3')">Навсегда x3</button>
+    <button onclick="buyStoreItem('x4')">Навсегда x4</button>
+    <button onclick="buyStoreItem('10000')">+10000 ₽</button>
+    <a href="https://t.me/KinoRust" target="_blank">Наш Telegram</a>
+  </div>
+
+  <div id="main">
+    <h1>Кликер Темщика</h1>
+    <div id="count">0 рублей</div>
+    <button id="clicker-button">Нажми!</button>
+    <div id="click-animation"></div>
+
+    <div id="upgrade-menu-toggle">Улучшения</div>
+    <div id="upgrade-menu" class="hidden">
+      <h3>Бусты</h3>
+      <div id="boosts"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

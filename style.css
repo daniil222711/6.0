@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#clicker-button {
+  font-size: 36px;
+  padding: 30px 60px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#clicker-button:active {
+  transform: scale(0.95);
+}
+
+#count, #cps {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+#upgrade-menu-toggle, #menu-toggle {
+  background: #444;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#upgrade-menu, #extra-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+#click-animation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: yellow;
+  pointer-events: none;
+}
